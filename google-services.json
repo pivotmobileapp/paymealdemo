@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "979309014123",
+    "firebase_url": "https://airy-totality-257918.firebaseio.com",
+    "project_id": "airy-totality-257918",
+    "storage_bucket": "airy-totality-257918.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979309014123:android:14c4ea8a47bcb28072552e",
+        "android_client_info": {
+          "package_name": "com.paymeal.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979309014123-7qmn0dfhf51q1ck86rreokrat1217g2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVw2u4iQbNm5vFOOnwHERbjK1jaUqqu1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979309014123-7qmn0dfhf51q1ck86rreokrat1217g2h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "979309014123-1n7c0eg1ai4aqrdqfbmld50hfosrsgai.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.paymeal.demo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
