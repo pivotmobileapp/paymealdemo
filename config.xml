@@ -56,7 +56,7 @@
 	</gap:plugin>	
 		
 	<plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" source="npm" spec="5.0.4" >
-       <variable name="GOOGLE_API_KEY_FOR_ANDROID" value="" />
+       <variable name="GOOGLE_API_KEY_FOR_ANDROID" value="AIzaSyBRuxG4JKCqFl2baD4hbfGvSZgv4yfY7j0" />
     </plugin>
 		         	        		    
     <access origin="*" />
