@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="01" id="com.paymeal.demo" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>KFC ANU</name>
+    <description>
+        KFC ANU
+    </description>
+    <author email="pivotdesignmedia@gmail.com" href="http://cordova.io">
+        paymeal.app
+    </author>
+    <content src="index.html" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
+    <gap:plugin name="cordova-plugin-geolocation" source="npm" spec="1.0.1" />
+    <gap:plugin name="cordova-plugin-network-information" source="npm" />
+    <gap:plugin name="cordova-plugin-device" source="npm" />
+    <gap:plugin name="cordova-plugin-media" source="npm" spec="5.0.2" />
+    <gap:plugin name="phonegap-plugin-push" source="npm" spec="2.1.2" />
+    <gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="4.0.0" />
+    <gap:plugin name="cordova-plugin-buildinfo" source="npm" spec="2.0.1" />
+    <gap:plugin name="cordova-plugin-request-location-accuracy_sayeh" source="npm" spec="2.2.2" />
+    <gap:plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" />
+    <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" />
+    <gap:plugin name="cordova-plugin-googleplus" source="npm" spec="6.0.0">
+        <variable name="REVERSED_CLIENT_ID" value="" />
+        <variable name="PLAY_SERVICES_VERSION" value="11.0.1" />
+    </gap:plugin>
+    <gap:plugin name="cordova-plugin-facebook4" source="npm" spec="4.2.1">
+        <variable name="APP_ID" value="" />
+        <variable name="APP_NAME" value="K-restaurant app" />
+    </gap:plugin>
+    <access origin="*" />
+    <access launch-external="yes" origin="tel:*" />
+    <allow-navigation href="https://js.stripe.com/*" />
+    <allow-navigation href="https://www.paypalobjects.com/*" />
+    <allow-navigation href="https://js.braintreegateway.com/*" />
+    <gap:config-file parent="/manifest" platform="android">
+        <supports-screens android:largeScreens="true" android:smallScreens="true" android:xlargeScreens="true" />
+        <application android:theme="@android:style/Theme.NoTitleBar">
+        </application>
+    </gap:config-file>
+    <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" />
+    <preference name="orientation" value="portrait" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="fullscreen" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="26" />
+    <preference name="phonegap-version" value="cli-8.1.1" />
+    <preference name="DisallowOverscroll" value="true" />
+</widget>
